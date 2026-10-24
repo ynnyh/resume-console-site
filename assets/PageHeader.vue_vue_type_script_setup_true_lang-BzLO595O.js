@@ -1,1 +1,0 @@
-import{d as c,bQ as s,bR as n,bS as t,bW as d,c3 as r,bJ as a}from"./vendor-Dlfjajz6.js";const i={class:"page-header fade-up"},l={class:"page-title"},u={key:0,class:"page-sub"},p=c({__name:"PageHeader",props:{title:{},sub:{}},setup(e){return(o,b)=>(a(),s("div",i,[n("div",l,t(e.title),1),e.sub?(a(),s("div",u,t(e.sub),1)):d("",!0),r(o.$slots,"default")]))}});export{p as _};
