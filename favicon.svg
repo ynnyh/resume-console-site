@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#4c7dff"/>
-      <stop offset="1" stop-color="#13c2c2"/>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a9c6f5"/>
+      <stop offset="1" stop-color="#6ee0d6"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="#0d1120"/>
-  <path d="M40.5 15.5a17 17 0 1 0 8 14.5c0-2.6-1.9-4.5-4.5-4.5h-3.5c-2.2 0-4-1.8-4-4 0-1.1.4-2 1.1-2.8.6-.7.9-1.6.9-2.5 0-2.3-2-4.1-4-0.7z" fill="url(#g)"/>
-  <circle cx="26" cy="27" r="2.4" fill="#0d1120"/>
-  <circle cx="36" cy="35" r="2" fill="#0d1120"/>
+  <rect width="64" height="64" rx="14" fill="#080b16"/>
+  <!-- 月 -->
+  <circle cx="43" cy="22" r="9" fill="url(#moon)"/>
+  <circle cx="46.5" cy="19.5" r="8" fill="#080b16"/>
+  <!-- 山脊 -->
+  <path d="M4 52 L20 30 L28 40 L38 22 L48 34 L60 26 L60 54 L4 54 Z" fill="#1a2440"/>
+  <!-- 岩点 -->
+  <circle cx="38" cy="22" r="2.6" fill="#e8a54b"/>
+  <path d="M4 52 L20 30 L28 40 L38 22 L48 34 L60 26" fill="none" stroke="#7ba8f0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
